@@ -1,5 +1,5 @@
 {
-  "name": "decorax_bgorder",
+  "name": "decorax_order",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "core-js": "^3.8.3",
+    "axios": "^1.7.5",
+    "core-js": "^3.38.1",
+    "element-ui": "^2.15.14",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
     "vuex": "^3.6.2"

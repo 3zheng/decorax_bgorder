@@ -16,6 +16,7 @@
                 </div>
             </el-header>
             <el-main>
+                <h2>订单管理后台</h2>
                 <el-table ref="multipleTable" @selection-change="handleSelectionChange" :data="showData" border
                     style="width: 100%" size="mini" :row-style="rowStyle">
                     <el-table-column type="selection" width="55">
@@ -195,7 +196,7 @@ export default {
                         //alert("ConfirmReceipt成功");
                         this.$notify({
                             title: '成功',
-                            message: `确认收货成功`,
+                            message: `修改状态成功`,
                             type: 'success',
                         });
                         orderIDs.forEach(orderID =>{
